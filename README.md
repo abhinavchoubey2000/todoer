@@ -103,25 +103,28 @@ Designed with simplicity in mind, Todoer focuses on speed, beautiful UI and a di
 
 ## Home
 
-> _(Add screenshot here)_
+> ![](./screenshots/home.jpeg)
 
 ---
 
 ## Project
 
-> _(Add screenshot here)_
+> ![](./screenshots/project-1.jpeg)
+> ![](./screenshots/project-2.jpeg)
 
 ---
 
 ## Analytics
 
-> _(Add screenshot here)_
+> ![](./screenshots/analytics-1.jpeg)
+> ![](./screenshots/analytics-2.jpeg)
+> ![](./screenshots/analytics-3.jpeg)
 
 ---
 
 ## Settings
 
-> _(Add screenshot here)_
+> ![](./screenshots/settings.jpeg)
 
 ---
 
