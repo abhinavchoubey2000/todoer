@@ -135,6 +135,10 @@ Designed with simplicity in mind, Todoer focuses on speed, beautiful UI and a di
 - Redux Persist
 - AsyncStorage
 - React Native Paper
+- React Native Modal
+- React Native Material Menu
+- React Native Element Dropdown
+- React Native Gifted Charts
 - Expo Image
 - Expo Vector Icons
 - React Native Modal
