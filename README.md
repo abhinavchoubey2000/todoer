@@ -1,56 +1,255 @@
-# Welcome to your Expo app 👋
+# 📋 Todoer
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  <img src="./assets/images/todoer-logo.png" width="120" alt="Todoer Logo"/>
+</p>
 
-## Get started
+<p align="center">
+  A beautiful offline-first task management app built with React Native, Expo, Redux Toolkit and TypeScript.
+</p>
 
-1. Install dependencies
+<p align="center">
 
-   ```bash
-   npm install
-   ```
+![Platform](https://img.shields.io/badge/Platform-Android-success)
+![React Native](https://img.shields.io/badge/React%20Native-0.81-blue)
+![Expo](https://img.shields.io/badge/Expo-Latest-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)
+![Redux Toolkit](https://img.shields.io/badge/Redux-Toolkit-purple)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-2. Start the app
+</p>
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+# ✨ Overview
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Todoer is a modern and offline-first productivity application that helps users organize their work into Projects, Sections and Tasks.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Designed with simplicity in mind, Todoer focuses on speed, beautiful UI and a distraction-free experience while keeping all data securely stored on-device.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+# 🚀 Features
 
-```bash
-npm run reset-project
+## 📁 Project Management
+
+- Create unlimited projects
+- Beautiful project themes
+- Custom project icons
+- Project descriptions
+
+---
+
+## 📂 Section Management
+
+- Organize tasks into sections
+- Create unlimited sections
+- Clean accordion interface
+- Persistent accordion state
+
+---
+
+## ✅ Task Management
+
+- Create tasks
+- Edit tasks
+- Delete tasks
+- Mark tasks as completed
+- Optional "Delete on Complete"
+- Task priorities
+- Task descriptions
+
+---
+
+## 📊 Analytics
+
+- Total Projects
+- Total Sections
+- Total Tasks
+- Completed Tasks
+- Pending Tasks
+- Overall Progress
+- Tasks by Priority
+- Most Active Project
+- Progress of every project
+
+---
+
+## ⚙️ Settings
+
+- Delete task on complete
+- About screen
+- Persistent user preferences
+
+---
+
+## 📦 Offline First
+
+- Works completely offline
+- Redux Persist support
+- AsyncStorage
+- No account required
+
+---
+
+## 🔄 OTA Updates
+
+- Supports Expo EAS Update
+- Receive JavaScript updates without reinstalling the app
+
+---
+
+# 📸 Screenshots
+
+## Home
+
+> _(Add screenshot here)_
+
+---
+
+## Project
+
+> _(Add screenshot here)_
+
+---
+
+## Analytics
+
+> _(Add screenshot here)_
+
+---
+
+## Settings
+
+> _(Add screenshot here)_
+
+---
+
+# 🛠 Tech Stack
+
+- React Native
+- Expo
+- Expo Router
+- TypeScript
+- Redux Toolkit
+- Redux Persist
+- AsyncStorage
+- React Native Paper
+- Expo Image
+- Expo Vector Icons
+- React Native Modal
+- React Native Toast Message
+- EAS Update
+
+---
+
+# 🏗 Architecture
+
+```
+Presentation Layer
+        │
+        ▼
+React Components
+        │
+        ▼
+Redux Toolkit
+        │
+        ▼
+Redux Persist
+        │
+        ▼
+AsyncStorage
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+# 📦 Installation
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Clone the repository
 
-## Learn more
+```bash
+git clone https://github.com/YOUR_USERNAME/Todoer.git
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Navigate into the project
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+cd Todoer
+```
 
-## Join the community
+Install dependencies
 
-Join our community of developers creating universal apps.
+```bash
+pnpm install
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Start the development server
+
+```bash
+pnpm expo start
+```
+
+Run Android
+
+```bash
+pnpm expo run:android
+```
+
+---
+
+# 🗺 Roadmap
+
+## ✅ Version 1
+
+- [x] Projects
+- [x] Sections
+- [x] Tasks
+- [x] Priorities
+- [x] Analytics Dashboard
+- [x] Offline Support
+- [x] Persistent Settings
+- [x] OTA Updates
+- [x] Beautiful Themes
+
+## 🚧 Version 2
+
+- [ ] Drag and drop
+- [ ] Font customization
+- [ ] Section transfer
+- [ ] Swipe to complete
+- [ ] Export Projects
+- [ ] Import Projects
+- [ ] Seperate task tab
+- [ ] Search Tasks
+- [ ] Cloud Sync
+- [ ] Task deadline with notifications
+
+## 🚧 Version 3 (Future)
+
+- [ ] AI layer
+- [ ] Kan-Ban Board
+- [ ] work flows
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+If you'd like to improve Todoer:
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Open a Pull Request.
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+<p align="center">
+Made with ❤️ using React Native & Expo
+</p>
